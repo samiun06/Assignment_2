@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: #fff9f4;
+}
+
+.banner-text h1, .product1 h3, .product2 h3, .product1 h5, .product2 h5, .About-Us h5, .box h3{
+    color: #363958;
+}
+.banner-text h1, .product1 h3, .product2 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.banner-text h1{
+    font-size: 5vmax;
+}
+
+.product1 h3, .product2 h3 {
+    font-size: 4vmax;
+}
+
+.banner-text p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-button {
+    background-image: linear-gradient(-225deg, #613df3 0%, #3543bc 100%);
+    border: none;
+    padding: 0.8vmin 2vmin;
+}
+
+
+.product1-card, .product2-card, .feature-card {
+    border: none;
+    background: white;
+}
+
+
+.product1 img {
+    background: #f1f1f1;
+    margin-top: 20px;
+}
+
+.feature {
+    padding: 7%;
+
+}
+
+#offer {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.images {
+    min-height: 20vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 25rem;
+    width: 30rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.box img {
+    height: 20rem;
+    width: 30rem;
+}
+
+.box h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
